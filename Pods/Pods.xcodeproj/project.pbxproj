@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C98ABEF0B67CA14D430CA739CCF4425 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		103E54F1F91D0DCE8A538738F5E2AD2E /* Pods-LEOKitDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF30F91387D21F63472423884FF7C1 /* Pods-LEOKitDemoTests-dummy.m */; };
+		116CE81807BB84FE0BEC7FD1287A22DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		13D29202083D5D7CE9969CA3A086B064 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F08DB1DACF8AFB98C24690F9D7A8EC5F /* Reachability.m */; };
+		205DE3914A9D2F44E9EE85829F95F108 /* LEONetworkKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B972D3029D1808A129978CBEBE40C48 /* LEONetworkKit.m */; };
+		20EF9E7A4E53078B94718C99909F4706 /* Pods-LEOKitDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D09E96FF65EEB6EFBA53655F10223 /* Pods-LEOKitDemoUITests-dummy.m */; };
+		3C3AD982B1729781AF24B8C293140200 /* LEONetworkKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B98096FB4FFFD04197ADA25B780FCFB5 /* LEONetworkKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46AC3D3007F0FDD0B8698332532B8002 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		52DAB3EC61BA8C0DCE13337A59979904 /* LEONetworkKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66680577EA966A7C45B35346616C1443 /* LEONetworkKit-dummy.m */; };
+		59E5424F2FC7FD9664BB3B3D63E5196D /* LEONetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2023279CBCB7C4632B68944FB6DC02 /* LEONetworkStatus.m */; };
+		6115AA354036387B0E2842C09AF00284 /* Pods-LEOKitDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2F74E037D6E88DC6AE642364B2FA5E /* Pods-LEOKitDemo-dummy.m */; };
+		7D741A4E04B6C93746D91656EE2FE91E /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD68A6980AE74BD20A571E0180AB545 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C105A1BD3C9CC928C9429E9B7550CC3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		EA132736066B50561B125BC84E9B5EED /* LEONetworkStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 047A243798B5DB2579FAA05B4D568CFF /* LEONetworkStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DF80C3785726629C7A4176C95488C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8325BC26B9D3D11D885A750E88FF967E;
+			remoteInfo = LEONetworkKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047A243798B5DB2579FAA05B4D568CFF /* LEONetworkStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LEONetworkStatus.h; path = LEONetworkKit/LEONetworkStatus.h; sourceTree = "<group>"; };
+		07A7F134807B3CD728A8AB48EE18880F /* LEONetworkKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LEONetworkKit.xcconfig; sourceTree = "<group>"; };
+		1346440FF7ED3FD6F9420AA8CB68BCBF /* Pods-LEOKitDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEOKitDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		15C7D8334888AAE5D88734B81675CB30 /* Pods-LEOKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEOKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2523BBD9F617DCF8E830DBF0C5F50793 /* libPods-LEOKitDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LEOKitDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DCCC560EB0285D4214BC4276729032 /* Pods-LEOKitDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEOKitDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		410647BF78C078459CE5B62E9454DCA0 /* Pods-LEOKitDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEOKitDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4680B8A6FD95F9C5674E2091B448866B /* Pods-LEOKitDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEOKitDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		484B2379707E602703989AEA2736F4B2 /* Pods-LEOKitDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LEOKitDemoTests-resources.sh"; sourceTree = "<group>"; };
+		4B972D3029D1808A129978CBEBE40C48 /* LEONetworkKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LEONetworkKit.m; path = LEONetworkKit/LEONetworkKit.m; sourceTree = "<group>"; };
+		5AD68A6980AE74BD20A571E0180AB545 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = LEONetworkKit/Reachability/Reachability.h; sourceTree = "<group>"; };
+		5B70A2A5DE760280DE82C9647736B114 /* Pods-LEOKitDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LEOKitDemoUITests-resources.sh"; sourceTree = "<group>"; };
+		5D2023279CBCB7C4632B68944FB6DC02 /* LEONetworkStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LEONetworkStatus.m; path = LEONetworkKit/LEONetworkStatus.m; sourceTree = "<group>"; };
+		60B0D56F20116D0249B0B8B4F8C9FD44 /* Pods-LEOKitDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LEOKitDemo-frameworks.sh"; sourceTree = "<group>"; };
+		66680577EA966A7C45B35346616C1443 /* LEONetworkKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LEONetworkKit-dummy.m"; sourceTree = "<group>"; };
+		6F2F74E037D6E88DC6AE642364B2FA5E /* Pods-LEOKitDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEOKitDemo-dummy.m"; sourceTree = "<group>"; };
+		8210F7F86227EE378AA20B8BE654DB4C /* Pods-LEOKitDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEOKitDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		89D341322CF18A0B488A517C78761496 /* Pods-LEOKitDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEOKitDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95DF30F91387D21F63472423884FF7C1 /* Pods-LEOKitDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEOKitDemoTests-dummy.m"; sourceTree = "<group>"; };
+		9A9D09E96FF65EEB6EFBA53655F10223 /* Pods-LEOKitDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEOKitDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		9D19003CE772C565ECFDBACAF2AC4861 /* libPods-LEOKitDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LEOKitDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A644FAFFA8CB8BBABD0188CD10F8FE03 /* LEONetworkKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LEONetworkKit-prefix.pch"; sourceTree = "<group>"; };
+		B7172F023C15604FD4236C23CD098378 /* Pods-LEOKitDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LEOKitDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		B98096FB4FFFD04197ADA25B780FCFB5 /* LEONetworkKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LEONetworkKit.h; path = LEONetworkKit/LEONetworkKit.h; sourceTree = "<group>"; };
+		C3056AE84C09FE5DD446AE989D0E59CF /* libPods-LEOKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LEOKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47BA9F1A74A307E867C5C9F95AE6FAE /* Pods-LEOKitDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEOKitDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C554323EAE0678F85B75B5AE24442AFB /* Pods-LEOKitDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LEOKitDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C6B1C9295B0E534FD552F095ACDA428C /* Pods-LEOKitDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEOKitDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C9FB976D59444AF1011F7D5CAEBBB031 /* libLEONetworkKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLEONetworkKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC0D7E80A44465B7D9C8426A22CA3154 /* Pods-LEOKitDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LEOKitDemo-resources.sh"; sourceTree = "<group>"; };
+		ED9E1AC78EF8D3F1CA2036DC740489C2 /* Pods-LEOKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEOKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F08DB1DACF8AFB98C24690F9D7A8EC5F /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = LEONetworkKit/Reachability/Reachability.m; sourceTree = "<group>"; };
+		F52A558FB6AC3B0DFA8B963519D62C66 /* Pods-LEOKitDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEOKitDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA2B87127060346F13BB8143D9FEEAFE /* Pods-LEOKitDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEOKitDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A70BFA1125C574F520DB82FA22B99D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46AC3D3007F0FDD0B8698332532B8002 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA828081967C8D169167C05E79E45753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C98ABEF0B67CA14D430CA739CCF4425 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5743E01C9E0DC670FE2994527436827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C105A1BD3C9CC928C9429E9B7550CC3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E037EEF64C5CDF8DA2DC5A71BE57A684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116CE81807BB84FE0BEC7FD1287A22DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15763FDB537C44B3B5F58776762A1AAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9FB976D59444AF1011F7D5CAEBBB031 /* libLEONetworkKit.a */,
+				C3056AE84C09FE5DD446AE989D0E59CF /* libPods-LEOKitDemo.a */,
+				2523BBD9F617DCF8E830DBF0C5F50793 /* libPods-LEOKitDemoTests.a */,
+				9D19003CE772C565ECFDBACAF2AC4861 /* libPods-LEOKitDemoUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		346C7165A75F0360C252183D815FD731 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07A7F134807B3CD728A8AB48EE18880F /* LEONetworkKit.xcconfig */,
+				66680577EA966A7C45B35346616C1443 /* LEONetworkKit-dummy.m */,
+				A644FAFFA8CB8BBABD0188CD10F8FE03 /* LEONetworkKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LEONetworkKit";
+			sourceTree = "<group>";
+		};
+		68BFB4E06FDBA39F2D80014385D1D227 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				716CB1E17268DA3857AF14D436D7C68B /* LEONetworkKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		716CB1E17268DA3857AF14D436D7C68B /* LEONetworkKit */ = {
+			isa = PBXGroup;
+			children = (
+				B98096FB4FFFD04197ADA25B780FCFB5 /* LEONetworkKit.h */,
+				4B972D3029D1808A129978CBEBE40C48 /* LEONetworkKit.m */,
+				047A243798B5DB2579FAA05B4D568CFF /* LEONetworkStatus.h */,
+				5D2023279CBCB7C4632B68944FB6DC02 /* LEONetworkStatus.m */,
+				5AD68A6980AE74BD20A571E0180AB545 /* Reachability.h */,
+				F08DB1DACF8AFB98C24690F9D7A8EC5F /* Reachability.m */,
+				346C7165A75F0360C252183D815FD731 /* Support Files */,
+			);
+			path = LEONetworkKit;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7BB105A75DAF1AB53CBA01A135A24963 /* Pods-LEOKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F52A558FB6AC3B0DFA8B963519D62C66 /* Pods-LEOKitDemo-acknowledgements.markdown */,
+				4680B8A6FD95F9C5674E2091B448866B /* Pods-LEOKitDemo-acknowledgements.plist */,
+				6F2F74E037D6E88DC6AE642364B2FA5E /* Pods-LEOKitDemo-dummy.m */,
+				60B0D56F20116D0249B0B8B4F8C9FD44 /* Pods-LEOKitDemo-frameworks.sh */,
+				CC0D7E80A44465B7D9C8426A22CA3154 /* Pods-LEOKitDemo-resources.sh */,
+				ED9E1AC78EF8D3F1CA2036DC740489C2 /* Pods-LEOKitDemo.debug.xcconfig */,
+				15C7D8334888AAE5D88734B81675CB30 /* Pods-LEOKitDemo.release.xcconfig */,
+			);
+			name = "Pods-LEOKitDemo";
+			path = "Target Support Files/Pods-LEOKitDemo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				68BFB4E06FDBA39F2D80014385D1D227 /* Pods */,
+				15763FDB537C44B3B5F58776762A1AAC /* Products */,
+				88B3243E3A54C19F1D51EC7500173F0A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88B3243E3A54C19F1D51EC7500173F0A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BB105A75DAF1AB53CBA01A135A24963 /* Pods-LEOKitDemo */,
+				AB9CEA8A001A71916BDD6093C1CF60AD /* Pods-LEOKitDemoTests */,
+				A6C4FACBA7E897B2E2240BE957F57152 /* Pods-LEOKitDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A6C4FACBA7E897B2E2240BE957F57152 /* Pods-LEOKitDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1346440FF7ED3FD6F9420AA8CB68BCBF /* Pods-LEOKitDemoUITests-acknowledgements.markdown */,
+				FA2B87127060346F13BB8143D9FEEAFE /* Pods-LEOKitDemoUITests-acknowledgements.plist */,
+				9A9D09E96FF65EEB6EFBA53655F10223 /* Pods-LEOKitDemoUITests-dummy.m */,
+				C554323EAE0678F85B75B5AE24442AFB /* Pods-LEOKitDemoUITests-frameworks.sh */,
+				5B70A2A5DE760280DE82C9647736B114 /* Pods-LEOKitDemoUITests-resources.sh */,
+				89D341322CF18A0B488A517C78761496 /* Pods-LEOKitDemoUITests.debug.xcconfig */,
+				C47BA9F1A74A307E867C5C9F95AE6FAE /* Pods-LEOKitDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-LEOKitDemoUITests";
+			path = "Target Support Files/Pods-LEOKitDemoUITests";
+			sourceTree = "<group>";
+		};
+		AB9CEA8A001A71916BDD6093C1CF60AD /* Pods-LEOKitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				410647BF78C078459CE5B62E9454DCA0 /* Pods-LEOKitDemoTests-acknowledgements.markdown */,
+				8210F7F86227EE378AA20B8BE654DB4C /* Pods-LEOKitDemoTests-acknowledgements.plist */,
+				95DF30F91387D21F63472423884FF7C1 /* Pods-LEOKitDemoTests-dummy.m */,
+				B7172F023C15604FD4236C23CD098378 /* Pods-LEOKitDemoTests-frameworks.sh */,
+				484B2379707E602703989AEA2736F4B2 /* Pods-LEOKitDemoTests-resources.sh */,
+				26DCCC560EB0285D4214BC4276729032 /* Pods-LEOKitDemoTests.debug.xcconfig */,
+				C6B1C9295B0E534FD552F095ACDA428C /* Pods-LEOKitDemoTests.release.xcconfig */,
+			);
+			name = "Pods-LEOKitDemoTests";
+			path = "Target Support Files/Pods-LEOKitDemoTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9582715E5C09360DBB7AB24045A31FCF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3AD982B1729781AF24B8C293140200 /* LEONetworkKit.h in Headers */,
+				EA132736066B50561B125BC84E9B5EED /* LEONetworkStatus.h in Headers */,
+				7D741A4E04B6C93746D91656EE2FE91E /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1521E6D89C4CCD4CBBC21D8D1A82E6EA /* Pods-LEOKitDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D355F0A7C42B90A883412BD041A6AE7 /* Build configuration list for PBXNativeTarget "Pods-LEOKitDemoUITests" */;
+			buildPhases = (
+				333C9BFA2E7F642D4C579D8B9FA58293 /* Sources */,
+				CA828081967C8D169167C05E79E45753 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LEOKitDemoUITests";
+			productName = "Pods-LEOKitDemoUITests";
+			productReference = 9D19003CE772C565ECFDBACAF2AC4861 /* libPods-LEOKitDemoUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8325BC26B9D3D11D885A750E88FF967E /* LEONetworkKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45AC667CF3B3C7D3392AC2DAC9466A74 /* Build configuration list for PBXNativeTarget "LEONetworkKit" */;
+			buildPhases = (
+				32F517AE11E018050D4E32EF705E320A /* Sources */,
+				E037EEF64C5CDF8DA2DC5A71BE57A684 /* Frameworks */,
+				9582715E5C09360DBB7AB24045A31FCF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEONetworkKit;
+			productName = LEONetworkKit;
+			productReference = C9FB976D59444AF1011F7D5CAEBBB031 /* libLEONetworkKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AD17A7558422402A3233B8E5AA672B67 /* Pods-LEOKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B290F194402244CA53E7C228DC3CA905 /* Build configuration list for PBXNativeTarget "Pods-LEOKitDemo" */;
+			buildPhases = (
+				B22E1BEF47D3D4DA57CB4ABCF8B4A402 /* Sources */,
+				D5743E01C9E0DC670FE2994527436827 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF5EC444A098CFEFF495855E31CB56CC /* PBXTargetDependency */,
+			);
+			name = "Pods-LEOKitDemo";
+			productName = "Pods-LEOKitDemo";
+			productReference = C3056AE84C09FE5DD446AE989D0E59CF /* libPods-LEOKitDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E343898FE83D2B143C2414017F6EFC9F /* Pods-LEOKitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94C9941596328A914EFEF0382D74E2D /* Build configuration list for PBXNativeTarget "Pods-LEOKitDemoTests" */;
+			buildPhases = (
+				272FB6683CEABF76DFB3DE3990A98D62 /* Sources */,
+				A70BFA1125C574F520DB82FA22B99D6B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LEOKitDemoTests";
+			productName = "Pods-LEOKitDemoTests";
+			productReference = 2523BBD9F617DCF8E830DBF0C5F50793 /* libPods-LEOKitDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 15763FDB537C44B3B5F58776762A1AAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8325BC26B9D3D11D885A750E88FF967E /* LEONetworkKit */,
+				AD17A7558422402A3233B8E5AA672B67 /* Pods-LEOKitDemo */,
+				E343898FE83D2B143C2414017F6EFC9F /* Pods-LEOKitDemoTests */,
+				1521E6D89C4CCD4CBBC21D8D1A82E6EA /* Pods-LEOKitDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		272FB6683CEABF76DFB3DE3990A98D62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103E54F1F91D0DCE8A538738F5E2AD2E /* Pods-LEOKitDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F517AE11E018050D4E32EF705E320A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DAB3EC61BA8C0DCE13337A59979904 /* LEONetworkKit-dummy.m in Sources */,
+				205DE3914A9D2F44E9EE85829F95F108 /* LEONetworkKit.m in Sources */,
+				59E5424F2FC7FD9664BB3B3D63E5196D /* LEONetworkStatus.m in Sources */,
+				13D29202083D5D7CE9969CA3A086B064 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333C9BFA2E7F642D4C579D8B9FA58293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EF9E7A4E53078B94718C99909F4706 /* Pods-LEOKitDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22E1BEF47D3D4DA57CB4ABCF8B4A402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6115AA354036387B0E2842C09AF00284 /* Pods-LEOKitDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF5EC444A098CFEFF495855E31CB56CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LEONetworkKit;
+			target = 8325BC26B9D3D11D885A750E88FF967E /* LEONetworkKit */;
+			targetProxy = 7DF80C3785726629C7A4176C95488C4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1996052EC8E84FA4991636ECD2A8EB04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED9E1AC78EF8D3F1CA2036DC740489C2 /* Pods-LEOKitDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		29F931691960CBCB2A1C7476692438AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26DCCC560EB0285D4214BC4276729032 /* Pods-LEOKitDemoTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6E5768C9C4AC838E873EE2B79C66EEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B1C9295B0E534FD552F095ACDA428C /* Pods-LEOKitDemoTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9E5584641EF2D8D16A1EF73A866E8D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15C7D8334888AAE5D88734B81675CB30 /* Pods-LEOKitDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9F132B283AFC69C61A654E3AB97ED33A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07A7F134807B3CD728A8AB48EE18880F /* LEONetworkKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LEONetworkKit/LEONetworkKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D27FA08B12BCC1D28BF18B4757C6C819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07A7F134807B3CD728A8AB48EE18880F /* LEONetworkKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LEONetworkKit/LEONetworkKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E4600805A61BCB16138CA6E7D1013124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89D341322CF18A0B488A517C78761496 /* Pods-LEOKitDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0401CA349897C383B9B180895C434D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C47BA9F1A74A307E867C5C9F95AE6FAE /* Pods-LEOKitDemoUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
+				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45AC667CF3B3C7D3392AC2DAC9466A74 /* Build configuration list for PBXNativeTarget "LEONetworkKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27FA08B12BCC1D28BF18B4757C6C819 /* Debug */,
+				9F132B283AFC69C61A654E3AB97ED33A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D355F0A7C42B90A883412BD041A6AE7 /* Build configuration list for PBXNativeTarget "Pods-LEOKitDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4600805A61BCB16138CA6E7D1013124 /* Debug */,
+				F0401CA349897C383B9B180895C434D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94C9941596328A914EFEF0382D74E2D /* Build configuration list for PBXNativeTarget "Pods-LEOKitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F931691960CBCB2A1C7476692438AD /* Debug */,
+				6E5768C9C4AC838E873EE2B79C66EEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B290F194402244CA53E7C228DC3CA905 /* Build configuration list for PBXNativeTarget "Pods-LEOKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1996052EC8E84FA4991636ECD2A8EB04 /* Debug */,
+				9E5584641EF2D8D16A1EF73A866E8D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

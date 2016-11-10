@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F4F422A00E878DCB8023254 /* libPods-LEOKitDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8952D4ABE786E547E247823C /* libPods-LEOKitDemoTests.a */; };
+		41D19845C91060768C798018 /* libPods-LEOKitDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACD9E19B7307BF5A61A126B /* libPods-LEOKitDemoUITests.a */; };
+		74CB26CA1CA35E05E480DE5F /* libPods-LEOKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5007250C92939184EDED8874 /* libPods-LEOKitDemo.a */; };
+		B3EA809D1DD34242002833C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA809C1DD34242002833C0 /* main.m */; };
+		B3EA80A01DD34242002833C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA809F1DD34242002833C0 /* AppDelegate.m */; };
+		B3EA80A31DD34242002833C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA80A21DD34242002833C0 /* ViewController.m */; };
+		B3EA80A61DD34242002833C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3EA80A41DD34242002833C0 /* Main.storyboard */; };
+		B3EA80A81DD34242002833C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3EA80A71DD34242002833C0 /* Assets.xcassets */; };
+		B3EA80AB1DD34242002833C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3EA80A91DD34242002833C0 /* LaunchScreen.storyboard */; };
+		B3EA80B61DD34242002833C0 /* LEOKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA80B51DD34242002833C0 /* LEOKitDemoTests.m */; };
+		B3EA80C11DD34242002833C0 /* LEOKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA80C01DD34242002833C0 /* LEOKitDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3EA80B21DD34242002833C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3EA80901DD34242002833C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3EA80971DD34242002833C0;
+			remoteInfo = LEOKitDemo;
+		};
+		B3EA80BD1DD34242002833C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3EA80901DD34242002833C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3EA80971DD34242002833C0;
+			remoteInfo = LEOKitDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ACD9E19B7307BF5A61A126B /* libPods-LEOKitDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LEOKitDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF0818A8AA9F3292919F759 /* Pods-LEOKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEOKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LEOKitDemo/Pods-LEOKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3FAC7A707DBD7FBCE4F10210 /* Pods-LEOKitDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEOKitDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LEOKitDemoUITests/Pods-LEOKitDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5007250C92939184EDED8874 /* libPods-LEOKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LEOKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8952D4ABE786E547E247823C /* libPods-LEOKitDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LEOKitDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD8DB1C3E3F4A5B26222B99 /* Pods-LEOKitDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEOKitDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LEOKitDemoUITests/Pods-LEOKitDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B13CEB58425A8E6FC525851A /* Pods-LEOKitDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEOKitDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LEOKitDemoTests/Pods-LEOKitDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3EA80981DD34242002833C0 /* LEOKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEOKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3EA809C1DD34242002833C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3EA809E1DD34242002833C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3EA809F1DD34242002833C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3EA80A11DD34242002833C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3EA80A21DD34242002833C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3EA80A51DD34242002833C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3EA80A71DD34242002833C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3EA80AA1DD34242002833C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3EA80AC1DD34242002833C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3EA80B11DD34242002833C0 /* LEOKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEOKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3EA80B51DD34242002833C0 /* LEOKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEOKitDemoTests.m; sourceTree = "<group>"; };
+		B3EA80B71DD34242002833C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3EA80BC1DD34242002833C0 /* LEOKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEOKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3EA80C01DD34242002833C0 /* LEOKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEOKitDemoUITests.m; sourceTree = "<group>"; };
+		B3EA80C21DD34242002833C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3EA80CF1DD3426D002833C0 /* LEOKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEOKit.h; sourceTree = "<group>"; };
+		C7A753CA613B649232ACCEC8 /* Pods-LEOKitDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEOKitDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LEOKitDemoTests/Pods-LEOKitDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF0D258EDCBFCA7DA043226E /* Pods-LEOKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEOKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LEOKitDemo/Pods-LEOKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3EA80951DD34242002833C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CB26CA1CA35E05E480DE5F /* libPods-LEOKitDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EA80AE1DD34242002833C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4F422A00E878DCB8023254 /* libPods-LEOKitDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EA80B91DD34242002833C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D19845C91060768C798018 /* libPods-LEOKitDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11B12D8C1B219D1BD4B30AF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5007250C92939184EDED8874 /* libPods-LEOKitDemo.a */,
+				8952D4ABE786E547E247823C /* libPods-LEOKitDemoTests.a */,
+				0ACD9E19B7307BF5A61A126B /* libPods-LEOKitDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F914CBEE9A48750119E9ED3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AF0818A8AA9F3292919F759 /* Pods-LEOKitDemo.debug.xcconfig */,
+				DF0D258EDCBFCA7DA043226E /* Pods-LEOKitDemo.release.xcconfig */,
+				B13CEB58425A8E6FC525851A /* Pods-LEOKitDemoTests.debug.xcconfig */,
+				C7A753CA613B649232ACCEC8 /* Pods-LEOKitDemoTests.release.xcconfig */,
+				3FAC7A707DBD7FBCE4F10210 /* Pods-LEOKitDemoUITests.debug.xcconfig */,
+				9AD8DB1C3E3F4A5B26222B99 /* Pods-LEOKitDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3EA808F1DD34242002833C0 = {
+			isa = PBXGroup;
+			children = (
+				B3EA80CE1DD34254002833C0 /* LEOKit */,
+				B3EA809A1DD34242002833C0 /* LEOKitDemo */,
+				B3EA80B41DD34242002833C0 /* LEOKitDemoTests */,
+				B3EA80BF1DD34242002833C0 /* LEOKitDemoUITests */,
+				B3EA80991DD34242002833C0 /* Products */,
+				3F914CBEE9A48750119E9ED3 /* Pods */,
+				11B12D8C1B219D1BD4B30AF6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3EA80991DD34242002833C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA80981DD34242002833C0 /* LEOKitDemo.app */,
+				B3EA80B11DD34242002833C0 /* LEOKitDemoTests.xctest */,
+				B3EA80BC1DD34242002833C0 /* LEOKitDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3EA809A1DD34242002833C0 /* LEOKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA809E1DD34242002833C0 /* AppDelegate.h */,
+				B3EA809F1DD34242002833C0 /* AppDelegate.m */,
+				B3EA80A11DD34242002833C0 /* ViewController.h */,
+				B3EA80A21DD34242002833C0 /* ViewController.m */,
+				B3EA80A41DD34242002833C0 /* Main.storyboard */,
+				B3EA80A71DD34242002833C0 /* Assets.xcassets */,
+				B3EA80A91DD34242002833C0 /* LaunchScreen.storyboard */,
+				B3EA80AC1DD34242002833C0 /* Info.plist */,
+				B3EA809B1DD34242002833C0 /* Supporting Files */,
+			);
+			path = LEOKitDemo;
+			sourceTree = "<group>";
+		};
+		B3EA809B1DD34242002833C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA809C1DD34242002833C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3EA80B41DD34242002833C0 /* LEOKitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA80B51DD34242002833C0 /* LEOKitDemoTests.m */,
+				B3EA80B71DD34242002833C0 /* Info.plist */,
+			);
+			path = LEOKitDemoTests;
+			sourceTree = "<group>";
+		};
+		B3EA80BF1DD34242002833C0 /* LEOKitDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA80C01DD34242002833C0 /* LEOKitDemoUITests.m */,
+				B3EA80C21DD34242002833C0 /* Info.plist */,
+			);
+			path = LEOKitDemoUITests;
+			sourceTree = "<group>";
+		};
+		B3EA80CE1DD34254002833C0 /* LEOKit */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA80CF1DD3426D002833C0 /* LEOKit.h */,
+			);
+			path = LEOKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3EA80971DD34242002833C0 /* LEOKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3EA80C51DD34242002833C0 /* Build configuration list for PBXNativeTarget "LEOKitDemo" */;
+			buildPhases = (
+				B9653EF07C47C4FF80480EDF /* [CP] Check Pods Manifest.lock */,
+				B3EA80941DD34242002833C0 /* Sources */,
+				B3EA80951DD34242002833C0 /* Frameworks */,
+				B3EA80961DD34242002833C0 /* Resources */,
+				CF900618C8306B7788CD65E8 /* [CP] Embed Pods Frameworks */,
+				D3377A67868EE9B9156644FF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEOKitDemo;
+			productName = LEOKitDemo;
+			productReference = B3EA80981DD34242002833C0 /* LEOKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3EA80B01DD34242002833C0 /* LEOKitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3EA80C81DD34242002833C0 /* Build configuration list for PBXNativeTarget "LEOKitDemoTests" */;
+			buildPhases = (
+				7B605A8639A12D10CB99228E /* [CP] Check Pods Manifest.lock */,
+				B3EA80AD1DD34242002833C0 /* Sources */,
+				B3EA80AE1DD34242002833C0 /* Frameworks */,
+				B3EA80AF1DD34242002833C0 /* Resources */,
+				ADEB11E6B079639EA2F7F62E /* [CP] Embed Pods Frameworks */,
+				08F95D77CD13A3D08338E679 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3EA80B31DD34242002833C0 /* PBXTargetDependency */,
+			);
+			name = LEOKitDemoTests;
+			productName = LEOKitDemoTests;
+			productReference = B3EA80B11DD34242002833C0 /* LEOKitDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3EA80BB1DD34242002833C0 /* LEOKitDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3EA80CB1DD34242002833C0 /* Build configuration list for PBXNativeTarget "LEOKitDemoUITests" */;
+			buildPhases = (
+				AF35E16AB2C716448F474121 /* [CP] Check Pods Manifest.lock */,
+				B3EA80B81DD34242002833C0 /* Sources */,
+				B3EA80B91DD34242002833C0 /* Frameworks */,
+				B3EA80BA1DD34242002833C0 /* Resources */,
+				ECAAF4FE12D21DFE9C348F84 /* [CP] Embed Pods Frameworks */,
+				62C9954CC3D542EA2692391D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3EA80BE1DD34242002833C0 /* PBXTargetDependency */,
+			);
+			name = LEOKitDemoUITests;
+			productName = LEOKitDemoUITests;
+			productReference = B3EA80BC1DD34242002833C0 /* LEOKitDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3EA80901DD34242002833C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Leo;
+				TargetAttributes = {
+					B3EA80971DD34242002833C0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4BZ2VM448J;
+						ProvisioningStyle = Automatic;
+					};
+					B3EA80B01DD34242002833C0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B3EA80971DD34242002833C0;
+					};
+					B3EA80BB1DD34242002833C0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B3EA80971DD34242002833C0;
+					};
+				};
+			};
+			buildConfigurationList = B3EA80931DD34242002833C0 /* Build configuration list for PBXProject "LEOKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3EA808F1DD34242002833C0;
+			productRefGroup = B3EA80991DD34242002833C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3EA80971DD34242002833C0 /* LEOKitDemo */,
+				B3EA80B01DD34242002833C0 /* LEOKitDemoTests */,
+				B3EA80BB1DD34242002833C0 /* LEOKitDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3EA80961DD34242002833C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EA80AB1DD34242002833C0 /* LaunchScreen.storyboard in Resources */,
+				B3EA80A81DD34242002833C0 /* Assets.xcassets in Resources */,
+				B3EA80A61DD34242002833C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EA80AF1DD34242002833C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EA80BA1DD34242002833C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08F95D77CD13A3D08338E679 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LEOKitDemoTests/Pods-LEOKitDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62C9954CC3D542EA2692391D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LEOKitDemoUITests/Pods-LEOKitDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B605A8639A12D10CB99228E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ADEB11E6B079639EA2F7F62E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LEOKitDemoTests/Pods-LEOKitDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF35E16AB2C716448F474121 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9653EF07C47C4FF80480EDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF900618C8306B7788CD65E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LEOKitDemo/Pods-LEOKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3377A67868EE9B9156644FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LEOKitDemo/Pods-LEOKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECAAF4FE12D21DFE9C348F84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LEOKitDemoUITests/Pods-LEOKitDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3EA80941DD34242002833C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EA80A31DD34242002833C0 /* ViewController.m in Sources */,
+				B3EA80A01DD34242002833C0 /* AppDelegate.m in Sources */,
+				B3EA809D1DD34242002833C0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EA80AD1DD34242002833C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EA80B61DD34242002833C0 /* LEOKitDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EA80B81DD34242002833C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EA80C11DD34242002833C0 /* LEOKitDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3EA80B31DD34242002833C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3EA80971DD34242002833C0 /* LEOKitDemo */;
+			targetProxy = B3EA80B21DD34242002833C0 /* PBXContainerItemProxy */;
+		};
+		B3EA80BE1DD34242002833C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3EA80971DD34242002833C0 /* LEOKitDemo */;
+			targetProxy = B3EA80BD1DD34242002833C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3EA80A41DD34242002833C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3EA80A51DD34242002833C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3EA80A91DD34242002833C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3EA80AA1DD34242002833C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3EA80C31DD34242002833C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3EA80C41DD34242002833C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3EA80C61DD34242002833C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AF0818A8AA9F3292919F759 /* Pods-LEOKitDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4BZ2VM448J;
+				INFOPLIST_FILE = LEOKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.leodev.LEOKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3EA80C71DD34242002833C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF0D258EDCBFCA7DA043226E /* Pods-LEOKitDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4BZ2VM448J;
+				INFOPLIST_FILE = LEOKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.leodev.LEOKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3EA80C91DD34242002833C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B13CEB58425A8E6FC525851A /* Pods-LEOKitDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LEOKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.leodev.LEOKitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LEOKitDemo.app/LEOKitDemo";
+			};
+			name = Debug;
+		};
+		B3EA80CA1DD34242002833C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A753CA613B649232ACCEC8 /* Pods-LEOKitDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LEOKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.leodev.LEOKitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LEOKitDemo.app/LEOKitDemo";
+			};
+			name = Release;
+		};
+		B3EA80CC1DD34242002833C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FAC7A707DBD7FBCE4F10210 /* Pods-LEOKitDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = LEOKitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.leodev.LEOKitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LEOKitDemo;
+			};
+			name = Debug;
+		};
+		B3EA80CD1DD34242002833C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AD8DB1C3E3F4A5B26222B99 /* Pods-LEOKitDemoUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = LEOKitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.leodev.LEOKitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LEOKitDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3EA80931DD34242002833C0 /* Build configuration list for PBXProject "LEOKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EA80C31DD34242002833C0 /* Debug */,
+				B3EA80C41DD34242002833C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3EA80C51DD34242002833C0 /* Build configuration list for PBXNativeTarget "LEOKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EA80C61DD34242002833C0 /* Debug */,
+				B3EA80C71DD34242002833C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3EA80C81DD34242002833C0 /* Build configuration list for PBXNativeTarget "LEOKitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EA80C91DD34242002833C0 /* Debug */,
+				B3EA80CA1DD34242002833C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3EA80CB1DD34242002833C0 /* Build configuration list for PBXNativeTarget "LEOKitDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EA80CC1DD34242002833C0 /* Debug */,
+				B3EA80CD1DD34242002833C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3EA80901DD34242002833C0 /* Project object */;
+}
