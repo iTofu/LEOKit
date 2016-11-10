@@ -25,7 +25,7 @@ Welcome to my blog: http://LeoDev.me
 
 ## Component
 
-* [LEONetworkKit]((https://github.com/iTofu/LEONetworkKit))
+* [LEONetworkKit](https://github.com/iTofu/LEONetworkKit)
 
 
 
@@ -33,15 +33,15 @@ Welcome to my blog: http://LeoDev.me
 
 ### CocoaPods
 
-LEONetworkKit is available on [CocoaPods](https://cocoapods.org/). Just add the following to your project Podfile:
+LEOKit is available on [CocoaPods](https://cocoapods.org/). Just add the following to your project Podfile:
 
 ```ruby
-pod 'LEONetworkKit' # Podfile
+pod 'LEOKit' # Podfile
 ```
 
 ### Non-CocoaPods
 
-Just drag the LEONetworkKit folder into your project.
+Just drag the LEOKit folder into your project.
 
 
 
